@@ -44,7 +44,8 @@ bounds = [(0,1)]*len(predictions)
 res = minimize(rmse_loss_func, starting_values, method='Powell')
 ~~~~
 
-
+#### Weights Optimization Plot 
+![Image](https://github.com/atharvjairath/Glycosylated-hemoglobin-prediction/blob/main/Scipy_miminize.png)
 
 ## Results :
 The results showed that the proposed optimized weighted ensemble
